@@ -1,0 +1,75 @@
+.navbar {
+    height: 100px;
+    background-color: rgb(247, 247, 247);
+}
+.navbar-brand {
+    color: rgb(121, 119, 119);
+    font-size: x-large;
+    padding-left: 40px;
+}
+.nav-link {
+    color: rgb(121, 119, 119);
+    font-size: large;
+}
+.nav-link:hover {
+    background-color: rgb(187, 184, 184);
+}
+.navbar-brand:hover {
+    color: black;
+}
+.images {
+    width: 350px;
+    height: 250px;
+}
+
+.services-section {
+    background-color: #fffbe8; /* Warna latar belakang light */
+    padding: 60px 0;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .services-section p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    border-radius: 12px; /* Membuat sudut kartu lebih bulat */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .card .icon {
+    font-size: 4rem; /* Ukuran ikon besar */
+    color: #fca311; /* Warna ikon */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Efek hover untuk kartu */
+    transition: all 0.3s ease;
+  }

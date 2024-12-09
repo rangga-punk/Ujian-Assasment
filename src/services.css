@@ -1,0 +1,55 @@
+.services-section {
+    background-color: #fffbe8; /* Warna latar belakang light */
+    padding: 60px 0;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .services-section p {
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  .card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 250px;
+  }
+  
+  .card-body {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .card .icon {
+    font-size: 4rem; /* Ukuran ikon besar */
+    color: #fca311; /* Warna ikon */
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #6c757d;
+    font-size: 1rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Efek hover untuk kartu */
+    transition: all 0.3s ease;
+  }
+  .icon {
+    display: none;
+}

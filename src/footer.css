@@ -1,0 +1,103 @@
+.footer-container {
+    background-color: #000000;
+    text-align: center;
+    padding: 40px 20px;
+    color: #333;
+  }
+  
+  .footer-top h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-top p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .email-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .email-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .btn-contact {
+    background-color: #ff6600;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-contact:hover {
+    background-color: #e65a00;
+  }
+  
+  .footer-middle {
+    margin: 40px 0;
+  }
+  
+  .footer-middle h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .footer-links a:hover {
+    color: #ff6600;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .icon:hover {
+    background-color: #ff6600;
+    color: #fff;
+  }
+  
